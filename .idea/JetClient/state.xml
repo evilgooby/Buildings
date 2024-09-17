@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &quot;name&quot;:&quot;ЖК Москва&quot;,&#10; &quot;city&quot;: &quot;Москва&quot;,&#10; &quot;year&quot;: 2020,&#10;  &quot;floors&quot;: 9&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="400de7a1-474f-448d-a85f-b1f332345898" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/CreateBuilding" />
+            </requestState>
+            <requestState>
+              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="city" />
+                    <option name="value" value="Москва" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="year" />
+                    <option name="value" value="2023" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="floors" />
+                    <option name="value" value="9" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/GetBuildings" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="c27997c2-0c03-4357-8f96-e8cf20540208" />
+    <option name="version" value="3" />
+  </component>
+</project>
