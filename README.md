@@ -14,7 +14,7 @@ git clone https://github.com/evilgooby/Buildings.git
 ## Использование:
 ### Пример запроса:
 POST:
-```
+``` JSON
 curl -X POST -H "Content-Type: application/json" -d '{
  "name":"ЖК Москва",
  "city": "Москва",
@@ -29,13 +29,13 @@ curl http://localhost:8080/GetBuildings?city=Москва&year=2022&floors=9
 
 ### Пример ответа:
 POST:
-```
+``` JSON
 {
 "message": "Building created successfully"
 }
-```
+``` 
 GET:
-```
+``` JSON
 [
   {
     "id": 7,
