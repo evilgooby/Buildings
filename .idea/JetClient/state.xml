@@ -24,23 +24,20 @@
               <option name="queryParams">
                 <list>
                   <queryParamState>
-                    <option name="disabled" value="true" />
                     <option name="key" value="city" />
                     <option name="value" value="Москва" />
                   </queryParamState>
                   <queryParamState>
-                    <option name="disabled" value="true" />
                     <option name="key" value="year" />
-                    <option name="value" value="2023" />
+                    <option name="value" value="2022" />
                   </queryParamState>
                   <queryParamState>
-                    <option name="disabled" value="true" />
                     <option name="key" value="floors" />
                     <option name="value" value="9" />
                   </queryParamState>
                 </list>
               </option>
-              <option name="url" value="http://localhost:8080/GetBuildings" />
+              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2022&amp;floors=9" />
             </requestState>
           </list>
         </option>

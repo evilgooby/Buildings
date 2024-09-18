@@ -4,55 +4,6 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1726236945826" />
-          <option name="id" value="644d56c9-635a-4677-b98e-353f1a272ace" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;danila&quot;,&#10;  &quot;city&quot;:&quot;Москва&quot;,&#10;  &quot;year&quot;: 2024,&#10;  &quot;floors&quot;:9&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="400de7a1-474f-448d-a85f-b1f332345898" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8080/CreateBuilding" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiQnVpbGRpbmcgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Building created successfully&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 13 Sep 2024 14:15:45 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="644d56c9-635a-4677-b98e-353f1a272ace" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Building created successfully&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="9" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1726236949619" />
           <option name="id" value="d093cdf0-d136-47a5-98c8-576fab5f2ec8" />
           <option name="request">
@@ -244,243 +195,6 @@
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Building created successfully&quot;}" />
               <option name="size" value="43" />
               <option name="time" value="9" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1726242030288" />
-          <option name="id" value="15b890cb-6994-468d-9656-718175591444" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
-              <option name="queryParams">
-                <list>
-                  <queryParamState>
-                    <option name="key" value="city" />
-                    <option name="value" value="Москва" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="year" />
-                    <option name="value" value="2023" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="floors" />
-                    <option name="value" value="9" />
-                  </queryParamState>
-                </list>
-              </option>
-              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2023&amp;floors=9" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3siaWQiOjYsIm5hbWUiOiJkYW5pbGEiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyMywiZmxvb3JzIjo5fV0=" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;danila&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2023,&#10;    &quot;floors&quot;: 9&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 13 Sep 2024 15:40:30 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="71" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="15b890cb-6994-468d-9656-718175591444" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;id&quot;:6,&quot;name&quot;:&quot;danila&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2023,&quot;floors&quot;:9}]" />
-              <option name="size" value="71" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1726242223542" />
-          <option name="id" value="7bf67d62-6e1a-485c-b9c0-368090487067" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
-              <option name="queryParams">
-                <list>
-                  <queryParamState>
-                    <option name="key" value="city" />
-                    <option name="value" value="Москва" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="year" />
-                    <option name="value" value="2023" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="floors" />
-                    <option name="value" value="9" />
-                  </queryParamState>
-                </list>
-              </option>
-              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2023&amp;floors=9" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6ImRhdGFiYXNlIGVycm9yIn1udWxs" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;database error&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 13 Sep 2024 15:43:43 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="30" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="7bf67d62-6e1a-485c-b9c0-368090487067" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:&quot;database error&quot;}null" />
-              <option name="size" value="30" />
-              <option name="time" value="9" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1726242228023" />
-          <option name="id" value="ca21d0d3-c6ce-4f23-9629-c70caccb5d2c" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
-              <option name="queryParams">
-                <list>
-                  <queryParamState>
-                    <option name="disabled" value="true" />
-                    <option name="key" value="city" />
-                    <option name="value" value="Москва" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="year" />
-                    <option name="value" value="2023" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="floors" />
-                    <option name="value" value="9" />
-                  </queryParamState>
-                </list>
-              </option>
-              <option name="url" value="http://localhost:8080/GetBuildings?year=2023&amp;floors=9" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6ImRhdGFiYXNlIGVycm9yIn1udWxs" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;database error&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 13 Sep 2024 15:43:48 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="30" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ca21d0d3-c6ce-4f23-9629-c70caccb5d2c" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:&quot;database error&quot;}null" />
-              <option name="size" value="30" />
-              <option name="time" value="1" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1726242234560" />
-          <option name="id" value="84e51e0b-0d14-440e-be3f-51387ea63eea" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
-              <option name="queryParams">
-                <list>
-                  <queryParamState>
-                    <option name="disabled" value="true" />
-                    <option name="key" value="city" />
-                    <option name="value" value="Москва" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="year" />
-                    <option name="value" value="2023" />
-                  </queryParamState>
-                  <queryParamState>
-                    <option name="key" value="floors" />
-                    <option name="value" value="9" />
-                  </queryParamState>
-                </list>
-              </option>
-              <option name="url" value="http://localhost:8080/GetBuildings?year=2023&amp;floors=9" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6ImRhdGFiYXNlIGVycm9yIn1udWxs" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: &quot;database error&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 13 Sep 2024 15:43:54 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="30" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="84e51e0b-0d14-440e-be3f-51387ea63eea" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:&quot;database error&quot;}null" />
-              <option name="size" value="30" />
-              <option name="time" value="1" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
@@ -1094,6 +808,290 @@
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Building created successfully&quot;}" />
               <option name="size" value="43" />
               <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1726689471548" />
+          <option name="id" value="f836afbf-9d2e-4136-bab6-cb9e9dd8398b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10; &quot;name&quot;:&quot;ЖК Москва&quot;,&#10; &quot;city&quot;: &quot;Москва&quot;,&#10; &quot;year&quot;: 2020,&#10;  &quot;floors&quot;: 9&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="400de7a1-474f-448d-a85f-b1f332345898" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8080/CreateBuilding" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiQnVpbGRpbmcgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Building created successfully&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 18 Sep 2024 19:57:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f836afbf-9d2e-4136-bab6-cb9e9dd8398b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Building created successfully&quot;}" />
+              <option name="size" value="43" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1726689507660" />
+          <option name="id" value="a60fec46-7f00-4cb3-98ae-5cb0719b75a4" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="city" />
+                    <option name="value" value="Москва" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="year" />
+                    <option name="value" value="2023" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="floors" />
+                    <option name="value" value="9" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2023&amp;floors=9" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjYsIm5hbWUiOiJkYW5pbGEiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyMywiZmxvb3JzIjo5fV0=" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;danila&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2023,&#10;    &quot;floors&quot;: 9&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 18 Sep 2024 19:58:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="71" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a60fec46-7f00-4cb3-98ae-5cb0719b75a4" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:6,&quot;name&quot;:&quot;danila&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2023,&quot;floors&quot;:9}]" />
+              <option name="size" value="71" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1726689530887" />
+          <option name="id" value="a6c9d3af-5dd3-41c7-8ebf-83b1bf720473" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="city" />
+                    <option name="value" value="Москва" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="year" />
+                    <option name="value" value="2024" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="floors" />
+                    <option name="value" value="9" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2024&amp;floors=9" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjUsIm5hbWUiOiJkYW5pbGEiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyNCwiZmxvb3JzIjo5fV0=" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 5,&#10;    &quot;name&quot;: &quot;danila&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2024,&#10;    &quot;floors&quot;: 9&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 18 Sep 2024 19:58:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="71" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a6c9d3af-5dd3-41c7-8ebf-83b1bf720473" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:5,&quot;name&quot;:&quot;danila&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2024,&quot;floors&quot;:9}]" />
+              <option name="size" value="71" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1726689585448" />
+          <option name="id" value="dae807fc-2181-49cc-9d2c-eed5c0866411" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="city" />
+                    <option name="value" value="Москва" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="year" />
+                    <option name="value" value="2020" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="floors" />
+                    <option name="value" value="9" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2020&amp;floors=9" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjgsIm5hbWUiOiLQltCaINCc0L7RgdC60LLQsCIsImNpdHkiOiLQnNC+0YHQutCy0LAiLCJ5ZWFyIjoyMDIwLCJmbG9vcnMiOjl9LHsiaWQiOjksIm5hbWUiOiLQltCaINCc0L7RgdC60LLQsCIsImNpdHkiOiLQnNC+0YHQutCy0LAiLCJ5ZWFyIjoyMDIwLCJmbG9vcnMiOjl9LHsiaWQiOjEwLCJuYW1lIjoi0JbQmiDQnNC+0YHQutCy0LAiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyMCwiZmxvb3JzIjo5fSx7ImlkIjoxMSwibmFtZSI6ItCW0Jog0JzQvtGB0LrQstCwIiwiY2l0eSI6ItCc0L7RgdC60LLQsCIsInllYXIiOjIwMjAsImZsb29ycyI6OX0seyJpZCI6MTIsIm5hbWUiOiLQltCaINCc0L7RgdC60LLQsCIsImNpdHkiOiLQnNC+0YHQutCy0LAiLCJ5ZWFyIjoyMDIwLCJmbG9vcnMiOjl9LHsiaWQiOjEzLCJuYW1lIjoi0JbQmiDQnNC+0YHQutCy0LAiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyMCwiZmxvb3JzIjo5fSx7ImlkIjoxNCwibmFtZSI6ItCW0Jog0JzQvtGB0LrQstCwIiwiY2l0eSI6ItCc0L7RgdC60LLQsCIsInllYXIiOjIwMjAsImZsb29ycyI6OX0seyJpZCI6MTUsIm5hbWUiOiLQltCaINCc0L7RgdC60LLQsCIsImNpdHkiOiLQnNC+0YHQutCy0LAiLCJ5ZWFyIjoyMDIwLCJmbG9vcnMiOjl9XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 8,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 9,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 10,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 11,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 12,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 13,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 14,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  },&#10;  {&#10;    &quot;id&quot;: 15,&#10;    &quot;name&quot;: &quot;ЖК Москва&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2020,&#10;    &quot;floors&quot;: 9&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 18 Sep 2024 19:59:45 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="655" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dae807fc-2181-49cc-9d2c-eed5c0866411" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:8,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:9,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:10,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:11,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:12,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:13,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:14,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9},{&quot;id&quot;:15,&quot;name&quot;:&quot;ЖК Москва&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2020,&quot;floors&quot;:9}]" />
+              <option name="size" value="655" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1726689617202" />
+          <option name="id" value="ebd1b96e-b673-4eba-acf4-1e1ec7cf6948" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b0b3fbd3-c962-466e-962d-bb2494af7ca6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="city" />
+                    <option name="value" value="Москва" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="year" />
+                    <option name="value" value="2022" />
+                  </queryParamState>
+                  <queryParamState>
+                    <option name="key" value="floors" />
+                    <option name="value" value="9" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/GetBuildings?city=Москва&amp;year=2022&amp;floors=9" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjcsIm5hbWUiOiJkYW5pbGEiLCJjaXR5Ijoi0JzQvtGB0LrQstCwIiwieWVhciI6MjAyMiwiZmxvb3JzIjo5fV0=" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 7,&#10;    &quot;name&quot;: &quot;danila&quot;,&#10;    &quot;city&quot;: &quot;Москва&quot;,&#10;    &quot;year&quot;: 2022,&#10;    &quot;floors&quot;: 9&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 18 Sep 2024 20:00:17 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="71" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ebd1b96e-b673-4eba-acf4-1e1ec7cf6948" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:7,&quot;name&quot;:&quot;danila&quot;,&quot;city&quot;:&quot;Москва&quot;,&quot;year&quot;:2022,&quot;floors&quot;:9}]" />
+              <option name="size" value="71" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
