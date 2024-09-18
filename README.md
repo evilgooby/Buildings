@@ -14,7 +14,7 @@ git clone https://github.com/evilgooby/Buildings.git
 ## Использование:
 ### Пример запроса:
 POST:
-``` JSON
+``` 
 curl -X POST -H "Content-Type: application/json" -d '{
  "name":"ЖК Москва",
  "city": "Москва",
